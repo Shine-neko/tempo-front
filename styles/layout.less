@@ -1,0 +1,192 @@
+html, body {
+  overflow: hidden;
+  height: 100%;
+  font-family: helvetica, "Lucida Grande", verdana, arial, helvetica, sans-serif;
+  background: #e9e9e9;
+  font-size: 13px;
+  line-height: 1.4em;
+  color: #484848;
+}
+
+
+#header {
+  background-color: #005782;
+  border-radius: 0;
+}
+
+#header .navbar-brand {
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8);
+  font-size: 15px;
+}
+
+#header .navbar-nav li > a {
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+#header .navbar-nav li.active > a {
+  background: none;
+}
+
+#header .navbar-nav li > a:hover {
+  background: none;
+}
+
+#header .navbar-nav.menu li > a {
+  padding-right: 5px;
+  padding-left: 5px;
+  span {
+    padding: 10px;
+  }
+}
+
+#header .navbar-nav li.user a {
+  padding-left: 5px;
+  img {
+    border-radius: 3px;
+    margin-right: 5px;
+  }
+}
+
+#header .navbar-nav.menu li > a:hover span {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.23) 0, rgba(255, 255, 255, 0.2) 100%);
+  border-radius: 3px;
+}
+
+#header .navbar-nav.menu li > a:hover span,
+#header .navbar-nav.menu li.active > a span {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.23) 0, rgba(255, 255, 255, 0.2) 100%);
+  border-radius: 3px;
+  color: #fff;
+  padding: 8px;
+}
+
+.navbar-nav .glyphicon {
+  font-size: 16px;
+  top: 6px;
+}
+
+.navbar-nav li .menu-label {
+  display: none;
+}
+
+#header li.notifications a {
+  padding-right: 5px;
+}
+
+#header li.user a {
+}
+
+#header .search .form-group {
+  margin-top: 3px;
+}
+
+#header .search input {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 3px;
+  border: 1px solid #fff;
+  float: left;
+  height: 28px;
+}
+
+#header .search .submit {
+  float: left;
+  background: #173455;
+  border: 1px solid #FFF;
+  border-radius: 0 3px 3px 0;
+  bottom: 0;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset;
+  display: block;
+  height: 28px;
+  padding: 0;
+  width: 26px;
+  color: #fff;
+}
+
+.content {
+  height: 100%;
+}
+
+.content .activity-box {
+  height: 100%;
+}
+.content #dashboard-activities {
+  background: #fff;
+  height: 100%;
+}
+
+.chat-panel {
+  height: 100%;
+  position: relative;
+}
+
+.chat-panel .rooms {
+  background: #fff;
+  height: 40px;
+}
+
+.chat-panel .rooms ul {
+  padding: 10px;
+}
+
+.chat-panel .rooms li {
+  float: left;
+  list-style: none;
+}
+
+.chat-panel .rooms ul li.current {
+  background-color: #eee;
+  border-radius: 3px;
+  a {
+    font-weight: bold;
+  }
+}
+
+.chat-panel .rooms li a {
+  color: #4183c4;
+  display: inline-block;
+  padding: 2px 5px;
+  font-size: 12px;
+}
+
+.chat-panel .user-connected {
+  background: #fff;
+  height: 40px;
+  margin-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  .toolbar-btn {
+    margin-top: 10px;
+    display: inline-block;
+  }
+}
+
+.chat-panel form {
+  background: #eee;
+  height: 54px;
+  bottom: 70px;
+  width: 100%;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+
+  .form-control {
+    border-radius: 0px;
+    text-shadow: none;
+  }
+}
+
+.inbox {
+  clear: both;
+  height: 100%;
+  overflow: auto;
+  margin-top: 5px;
+  padding-top: 10px;
+  background-color: #fff;
+}
