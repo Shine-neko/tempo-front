@@ -13,7 +13,7 @@ gulp.task('styles', function () {
         .pipe(recess()) // Linting CSS
         .pipe(plumber())
         .pipe(less()) // Compile LESS
-        .pipe(minifyCSS()) // Minify CSS
+        //.pipe(minifyCSS()) // Minify CSS
         .pipe(gulp.dest(dist + 'css'));
 });
 
